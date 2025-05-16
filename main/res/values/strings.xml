@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FingerPaintPractice</string>
+    <string name="fingerpaint_view">FingerPaint View</string>
+    <string name="submit">Submit</string>
+    <string name="clear">Clear</string>
+    <string name="save">Save</string>
+</resources>
