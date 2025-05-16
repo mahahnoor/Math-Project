@@ -37,7 +37,7 @@ public class DigitClassifier {
             for (int j = 0; j < 28; j++) {
                 int pixel = resized.getPixel(j, i);
                 float normalized = (Color.red(pixel) / 255.0f);
-                input[0][i][j][0] = 1.0f - normalized;  // invert for MNIST style
+                input[0][i][j][0] = 1.0f - normalized;  
             }
         }
 
